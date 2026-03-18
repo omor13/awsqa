@@ -8,7 +8,7 @@ from selenium.webdriver import Remote
 devicefarm_client = boto3.client("devicefarm", region_name="us-west-2")
 
 testgrid_url_response = devicefarm_client.create_test_grid_url(
-    projectArn="arn:aws:devicefarm:us-west-2:339712888957:testgrid-project:e046f915-f887-4d5c-ac28-08d7533295f4",
+    projectArn="arn:aws:devicefarm:us-west-2:*********:testgrid-project:***********************",
     expiresInSeconds=600
 )
 
